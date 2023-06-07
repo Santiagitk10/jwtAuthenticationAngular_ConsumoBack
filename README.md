@@ -1,5 +1,31 @@
 # JwtFront
 
+- Curso:
+
+https://www.youtube.com/watch?v=brb4SO-dO_k&list=PLlameCF3cMEvk_3QFm_GgJ-H4akG0V2jM&index=3
+
+- Error subscribe deprecated
+
+https://www.youtube.com/watch?v=4F_dR7LOSmM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
 ## Development server
