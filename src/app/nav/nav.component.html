@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <div class="container-fluid">
+    <a routerLink="/" class="navbar-brand">Home</a>
+      <ul class="navbar-nav d-flex justify-content-between" *ngIf="!authenticated">
+        <li class="nav-item">
+          <a routerLink="/login" class="nav-link active" aria-current="page">Login</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/register" class="nav-link active" aria-current="page">Register</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav d-flex justify-content-between" *ngIf="authenticated">
+        <li class="nav-item">
+          <a routerLink="/login" class="nav-link active" aria-current="page" (click)="logout()">Logout</a>
+        </li>
+
+      </ul>
+  </div>
+</nav>
